@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assests/img/favivon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close"><i class="fa fa-times"></i></span>
+             <div class="content_title">
+                <span>Skills</span>
+             </div>
+              <div class="skills-box">
+                        <span class="skills-lable">HTML</span>
+                        <span class="skills-lable">CSS</span>
+                        <span class="skills-lable">PHP</span>
+                        <span class="skills-lable">JAVASCRIPT</span>
+                        <span class="skills-lable">MySQL</span>
+                        <span class="skills-lable">C++</span>
+                        <span class="skills-lable">C</span>
+                    </div>
+        </div>
+    </div>
+       <div class="modal" id="myModal3">
+    <div class="modal-content">
+        <span class="close"><i class="fa fa-times"></i></span>
+        <div class="content-title">
+            <span>About Me</span>
+        </div>
+         <p>I am a talented and innovative frontend web developer with a passion for creating captivating and user-friendly web interfaces. 
+            My skills include transforming design ideas into responsive and visually striking websites and web applications. 
+            With a solid background in HTML, CSS, and JavaScript, I specialize in implementing responsive design, enhancing performance, and ensuring cross-browser compatibility.</p>
+    </div>
+        </div>
+
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo">
+                <img src="logo.avif">
+            </div>
+            <div class="right_nav">
+                <div class="nav_menu" id="navMenu">
+                    <ul class="link_list">
+                        <div class="close-menu">
+                            <i class="fa fa-times" onclick="menuClose()"></i>
+                        </div>
+                        <li class="List">
+                            <a href="#" class="link">Home</a>
+                        </li>
+                            <li class="List">
+                            <a href="#myModal" class="link" id="myBtn">Skills <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="description_box">
+                <div class="link_desciption" id="myDescription">
+                    <div class="content-title">
+                        <span>I'm Skilled In</span>
+                    </div>
+                    <div class="desc_content">
+                        <span class="skills-lable">HTML</span>
+                        <span class="skills-lable">CSS</span>
+                        <span class="skills-lable">PHP</span>
+                        <span class="skills-lable">JAVASCRIPT</span>
+                        <span class="skills-lable">MySQL</span>
+                        <span class="skills-lable">C++</span>
+                        <span class="skills-lable">C</span>
+                    </div>
+                </div>
+            </div>
+                   
+                        <li class="List">
+                            <a href="#myModal1" class="link">Projects</a>
+                        </li>
+                        <li class="List">
+                            <a href="Contact.html" class="link">Contact</a>
+                            
+                        </li>
+                         <li class="List">
+                            <a href="#myModal3" class="link" id="myBtn">About <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="description_box about_box">
+                                <div class="link_description" id="myDescription">
+                                    <div class="content-title">
+                                        <span>About Me</span>
+                                    </div>
+                                    <div class="desc_content">
+                                        <p>I am a talented and innovative frontend web developer with a passion for creating captivating and user-friendly web interfaces. 
+                                            My skills include transforming design ideas into responsive and visually striking websites and web applications. With a solid background in HTML, CSS, and JavaScript, 
+                                            I specialize in implementing responsive design, enhancing performance, and ensuring cross-browser compatibility.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            <div class="nav_button">
+                <a href="CV  JUNE WAHITO.pdf" class="btn"><i class="fa fa-download"><span>Download</span></i></a>
+            </div>
+            
+            <div class="nav_menu_btn">
+                <i class="fa fa-bars" onclick="myMenuFunction()"></i>
+            </div>
+            </div>
+        </nav>
+                <main class="main">
+            <div class="row hero">
+                <div class="col col-1">
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <a href="https://linkedin.com" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin-in icon"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram icon"></i>
+                        </a>
+                        <a href="https://github.com/trill-254"  style="text-decoration: none;" >
+                            <i class="fa-brands fa-github icon"></i>
+                        </a>
+                        <a href="https://facebook.com/" target="_blank" style="text-decoration: none;" rel="noopener noreferrer">
+                            <i class="fa-brands fa-facebook icon"></i>
+                        </a>
+                    </div>
+                    <div class="hero_box">
+                        <div class="hello">
+                            <p>Hello, I Am June Ngunjiri</p>
+                        </div>
+                        <div class="job">
+                            <span class="multiText"></span>
+                        </div>
+                        <div class="hero_description">
+                            <p>Experienced frontend developer with a passion for creating visually stunning and user-friendly websites.</p>
+                        </div>
+                        <div class="hero_btn">
+                            <button class="btn_2"><a href="CV  JUNE WAHITO.pdf">Download CV</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-2">
+                    <div class="circle">
+                        <img src="circle.png" alt="">
+                    </div>
+                    <div class="hero-image">
+                        <img src="page.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
